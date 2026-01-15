@@ -1,3 +1,4 @@
+class Program {
 static void Main (string[] args){
     try
     {
@@ -8,7 +9,8 @@ static void Main (string[] args){
     }
     catch (Exception e)
     {
-
-        Console.WriteLine($"An error occurred: {e,toString()}");
+        Console.WriteLine($"An error occurred: {e.Message}");
     }
+}
+
 }
